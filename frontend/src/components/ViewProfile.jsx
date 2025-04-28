@@ -48,9 +48,9 @@ const ViewProfile = () => {
             <span>{user.phoneNumber}</span>
           </div>
         </div>
-        <div className="w-[30%] my-5">
+        <div className="md:w-[30%] my-5">
           <h1 className="text-md font-bold">Skills</h1>
-          <div className="flex items-center gap-1 mt-2">
+          <div className="grid items-center grid-cols-3  gap-1 mt-2">
             {user.profile.skills.length ? (
               user.profile.skills.map((item, index) => (
                 <Badge className={"bg-[#6a38c2]"} key={index}>

@@ -30,7 +30,7 @@ const HeroSection = () => {
           An online platform that connects job seekers with employers. 
         </p>
         {user &&
-        <div className="flex w-[40%] shadow-lg border-gray-200 pl-3 rounded-full items-center gap-4 mx-auto">
+        <div className="flex w-[70%] sm:w-[40%] shadow-lg border-gray-200 pl-3 rounded-full items-center gap-4 mx-auto">
         <input
           onChange={(e)=>setQuery(e.target.value)}
           type={"text"}

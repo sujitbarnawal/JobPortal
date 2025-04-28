@@ -71,7 +71,7 @@ const Signup = () => {
       <div className="flex items-center justify-center max-w-7xl mx-auto">
         <form
           onSubmit={(e) => handleFormSubmit(e)}
-          className="w-1/2 border rounded-md p-4 my-10"
+          className="w-[80%] md:w-1/2 border rounded-md p-4 my-10"
         >
           <h1 className="font-bold text-2xl text-center mb-5">Sign Up</h1>
           <div className="my-2">
