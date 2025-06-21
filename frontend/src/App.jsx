@@ -70,6 +70,10 @@ const appRouter=createBrowserRouter([
     {
       path:'/admin/jobs/:id/applicants',
       element:<ProtectedRoute><JobApplicants/></ProtectedRoute>
+    },
+    {
+      path:'*',
+      element:<Home/>
     }
   ])
 
