@@ -71,7 +71,7 @@ const Login = () => {
               onChange={(e) => setInput({ ...input, email: e.target.value })}
               className="my-2"
               type="email"
-              placeholder="sujit@gmail.com"
+              placeholder="pabin@gmail.com"
             />
           </div>
           <div className="my-2">
