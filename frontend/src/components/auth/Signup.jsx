@@ -81,7 +81,7 @@ const Signup = () => {
               onChange={(e) => setInput({ ...input, fullname: e.target.value })}
               className="my-2"
               type="text"
-              placeholder="Sujit Barnawal"
+              placeholder="Pabin Mahate"
             />
           </div>
           <div className="my-2">
@@ -91,7 +91,7 @@ const Signup = () => {
               onChange={(e) => setInput({ ...input, email: e.target.value })}
               className="my-2"
               type="email"
-              placeholder="sujit@gmail.com"
+              placeholder="pabin@gmail.com"
             />
           </div>
           <div className="my-2">
